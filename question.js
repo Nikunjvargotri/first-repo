@@ -1,28 +1,60 @@
-function calculateElectricityBill(units) {
-    let totalBill = 0;
-    if (units <= 100) {
-        totalBill = units * 3;
-    } else if (units <= 200) {
-        totalBill = (100 * 3) + ((units - 100) * 5); 
-    } else if (units <= 300) {
-        totalBill = (100 * 3) + (100 * 5) + ((units - 200) * 7); 
-    } else {
-        totalBill = (100 * 3) + (100 * 5) + (100 * 7) + ((units - 300) * 10);
-    }
 
-    
-    if (totalBill > 1000) {
-        totalBill += totalBill * 0.10; 
-    }
+//1.
 
-    return totalBill;
+// Time Complexity Analysis of Nested Loops
+// int 
+c = 0;
+for(let  i = 0; i < n; i++) {
+    for(let j = i+1; j < m; j++) {
+        c++;
+    }
 }
 
+//--> Object(n*m)----time complexity
 
-let unitsConsumed = 300; 
-let totalBill = calculateElectricityBill(unitsConsumed);
 
-console.log(`Total electricity bill for ${unitsConsumed} units: ₹${totalBill.toFixed(2)}`);
+//2.
 
-  
+//Nested Loop Analysis
+ c = 0;
+for( let i = 0; i < n; i++) {
+    for(let j = i+1; j < m; j++) {
+        c++;
+    }
+}
+Task:
+//Analyze the time complexity and explain if it differs from Problem 1.
 
+//Provide a detailed breakdown of how many iterations each loop executes.
+
+
+
+//---->  O(n*m) ------time complexity
+ 
+
+
+
+
+//3.
+
+let n=16
+let k=2
+
+for (let i=0; i<=n; i*=2){
+    c++
+}
+
+//----->  O(logn) --- time complexity
+
+
+
+
+//4.
+
+for(let i = 0; i < n; i++) {
+    for(let  j = 0; j < m; j++) {
+        cout << "okay";
+    }
+}
+
+//----> O(n*m)  ---- time complexity
