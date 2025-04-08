@@ -222,3 +222,128 @@
 //     }
 // }
 // console.log(result)
+
+
+
+
+
+
+
+
+// Sum of Two Numbers 
+// Write a function sum(a, b) that returns the sum of two numbers. 
+// function sum(a, b) { 
+// // your code here 
+// } 
+// Example: 
+// sum(5, 10); 
+
+
+
+// function additionFunction(a, b) {
+//     return a + b;
+// }
+
+// console.log(additionFunction(5,10))
+
+
+
+
+
+
+// Check Prime Number 
+// Write a function isPrime(n) that returns true if n is a prime number, otherwise 
+// false. 
+// function isPrime(n) { 
+// // your code here 
+// } 
+// Example: 
+// isPrime(7); 
+// isPrime(10); 
+
+// function isPrime(num) {
+//     if (num % 2 === 0) 
+//     return false
+//     for (let i = 3; i <= Math.sqrt(num); i += 2) {
+//         if (num % i === 0) {
+//             return false
+//         }
+//     }
+//     return true
+// }
+// console.log(isPrime(11))
+// console.log(isPrime(10))
+
+
+
+
+
+
+
+
+// : Reverse a String 
+// Write a function reverseString(str) that returns the reversed version of the 
+// input string. 
+// function reverseString(str) { 
+// // your code here 
+// } 
+// Example: 
+// reverseString("hello"); // Output: "olleh"
+
+
+
+
+// function reversemessage(hello) {
+//     return hello.split('').reduce((rev, char) => char + rev, '')
+// }
+
+// console.log(reversemessage("hello"))
+
+
+
+
+
+
+// Find Maximum in Array 
+// Write a function findMax(arr) that returns the largest number from an array of 
+// numbers. 
+// function findMax(arr) { 
+// // your code here 
+// } 
+// Example: 
+// findMax([10, 25, 3, 100, 56]); // Output: 100 
+
+
+// function findMax(arr) {
+//     let max = arr[0]
+//     for (let i = 1; i < arr.length; i++) {
+//         if (arr[i] > max) {
+//             max = arr[i]
+//         }
+//     }
+//     return max
+// }
+
+// console.log(findMax([10, 25, 3, 100, 56]))
+
+
+
+
+
+
+// Count Vowels in a String 
+// Write a function countVowels(str) that counts the number of vowels (a, e, i, o, 
+// u) in a string. 
+// function countVowels(str) { 
+// // your code here 
+// } 
+// Example: 
+// countVowels("JavaScript"); // Output: 3
+
+
+
+
+
+
+
+
