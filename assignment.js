@@ -344,6 +344,86 @@
 
 
 
+//8-april-2025
+
+
+// : Find the First and Last Elements of an Array 
+// �
+// �
+//  Description: 
+// Given an array, write a JavaScript function to return the first and last elements of the 
+// array. 
+// �
+// �
+//  Example: 
+// const arr = [10, 20, 30, 40]; 
+// Output: [10, 40] 
+
+
+// function getFirstAndLast(arr) {
+//     if (arr.length == 0) {
+//       return []
+//     }
+//     return [arr[0], arr[arr.length - 1]]
+//   }
+//   const arr = [10, 20, 30, 40]
+//   console.log(getFirstAndLast(arr))
 
 
 
+
+
+
+
+// Concatenate Two Arrays (Including Nested Arrays) 
+// �
+// �
+//  Description: 
+// You are given two array 
+// let n1 = [[1], [2]]; 
+// let n2 = [3, [4, 5]]; 
+// Write a JavaScript function to concatenate these arrays into a single array. 
+// �
+// �
+//  Expected Output: 
+// [[1], [2], 3, [4, 5]] 
+
+
+//   function concatenatearr(arr1, arr2) {
+//     return [...arr1, ...arr2]
+//   }
+//   let n1 = [[1], [2]]
+//   let n2 = [3, [4, 5]]
+//   console.log(concatenatearr(n1, n2))
+
+
+
+// : Remove All Elements Containing the Number 2 
+// �
+// �
+//  Description: 
+// From a mixed nested array, remove any element (array or single value) that contains 
+// the number 2. 
+// �
+// �
+//  Example: 
+// let arr = [[1], [2], 3, [4, 2], [5], 2]; 
+// Expected Output: [[1], 3, [5]]
+
+
+
+// function removenumberWithTwo(arr) {
+//     return arr.filter(number => {
+//       if (Array.isArray(number)) {
+       
+//         return !number.includes(2)
+//       } else {
+        
+//         return number!== 2
+//       }
+//     })
+//   }
+  
+  
+//   let arr = [[1], [2], 3, [4, 2], [5], 2]
+//   console.log(removenumberWithTwo(arr))
