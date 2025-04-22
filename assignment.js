@@ -427,3 +427,115 @@
   
 //   let arr = [[1], [2], 3, [4, 2], [5], 2]
 //   console.log(removenumberWithTwo(arr))
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 11-april-2025
+
+
+
+// Two Sum Problem 
+// Description 
+// Implement a solution to the classic Two Sum problem: given an array of numbers 
+// and a target sum, find two numbers that add up to the target. This task will 
+// enhance your understanding of array operations and optimization techniques. 
+// Task 
+// Write a function that: 
+// ● Takes an array of numbers and a target number as input 
+// ● Returns the indices of two numbers that sum to the target 
+// ● Returns [-1, -1] if no solution exists 
+// ● Assumes each input has exactly one solution 
+ 
+ 
+// Example 
+// ● Input: [2, 7, 11, 15], target = 9 
+// ● Output: [0, 1] (because 2 + 7 = 9) 
+// Requirements 
+// ● Include at least 3 test cases 
+// ● Optimize for time complexity (aim for O(n) if possible) 
+// ● Provide a brief explanation of your approach
+
+
+
+
+// let arr=[2,7,11,15]
+// let target=9
+// let temp=[]
+// for(let i=0; i<arr.length; i++){
+//     for(let j=i+1; j<arr.length; j++){
+//         if (arr[i]+arr[j]===target){
+//             temp.push([arr[i],arr[j]])
+//         }
+//     }
+// }
+// console.log(temp)
+
+
+
+
+
+
+// const sum_of_odd_numbers=(arr)=>{
+//     let sum=0
+//     for (let i=0; i<arr.length; i++){
+//         if(arr[i]%2!==0){
+//             sum+=arr[i]
+//         }
+//     }
+//     return sum
+// }
+
+// const arr=[1,2,3,4,5,6]
+// console.log(sum_of_odd_numbers(arr))
+
+
+
+
+
+
+
+// const sum_of_odd_numbers=(arr)=>{
+//     let sum=0
+//     for (let i=0; i<arr.length; i++){
+//         if(arr[i]%2!==0){
+//             sum+=arr[i]
+//         }
+//     }
+//     return sum
+// }
+
+// const arr= [7, 8, 10, 11, 13] 
+// console.log(sum_of_odd_numbers(arr))
+
+
+
+
+
+// const remove_element_occurence_2=(arr)=>{
+//     let result=[]
+//     for (let i=0; i<arr.length; i++){
+//         let count=0
+//         for (let j=0; j<arr.length; j++){
+//             if(arr[i]===arr[j]){
+//                 count++
+//             }
+//         }
+//         if(count===1){
+//             result.push(arr[i])
+//         }
+//     }
+//     return result
+// }
+// const arr=[1,2,3,2,4,5,2,6]
+
+// console.log(remove_element_occurence_2(arr))
